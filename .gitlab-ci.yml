@@ -1,0 +1,14 @@
+stages:
+  - deploy
+
+test:
+  stage: deploy
+  script:
+  - rsync -rult --delete-after --exclude=.git/ --exclude=.gitlab-ci.yml --exclude=.env --exclude=static/ --exclude=node_modules/ $CI_PROJECT_DIR/ /var/www/uznews/uznews.uicgroup.tech/frontend
+  - cd /var/www/uznews/uznews.uicgroup.tech/frontend && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash && export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" &&  nvm install 16.19.0 && npm install -g yarn && yarn && yarn build && pm2 start
+  tags:
+    - uznews
+  only:
+    - master 
+
+

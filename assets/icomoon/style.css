@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?qjnos4');
+  src:  url('fonts/icomoon.eot?qjnos4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qjnos4') format('truetype'),
+    url('fonts/icomoon.woff?qjnos4') format('woff'),
+    url('fonts/icomoon.svg?qjnos4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-volume-3:before {
+  content: "\e925";
+}
+.icon-columns:before {
+  content: "\e920";
+}
+.icon-document-stroke:before {
+  content: "\e922";
+}
+.icon-microphone-stroke:before {
+  content: "\e923";
+}
+.icon-play-stroke:before {
+  content: "\e924";
+}
+.icon-multiplier-2x:before {
+  content: "\e921";
+}
+.icon-icon-chevron-down:before {
+  content: "\e91f";
+}
+.icon-link:before {
+  content: "\e91e";
+}
+.icon-share:before {
+  content: "\e911";
+}
+.icon-volume:before {
+  content: "\e912";
+}
+.icon-player-play:before {
+  content: "\e913";
+}
+.icon-download-stroke:before {
+  content: "\e914";
+}
+.icon-time-forvard:before {
+  content: "\e915";
+}
+.icon-time-back:before {
+  content: "\e916";
+}
+.icon-multiplier-1x:before {
+  content: "\e917";
+}
+.icon-filter:before {
+  content: "\e918";
+}
+.icon-dislike:before {
+  content: "\e919";
+}
+.icon-like:before {
+  content: "\e91a";
+}
+.icon-calendar-dotted:before {
+  content: "\e91b";
+}
+.icon-bell-stroke:before {
+  content: "\e91c";
+}
+.icon-smartphone:before {
+  content: "\e91d";
+}
+.icon-chevron-right:before {
+  content: "\e910";
+}
+.icon-message:before {
+  content: "\e90d";
+}
+.icon-phone:before {
+  content: "\e90e";
+}
+.icon-mail:before {
+  content: "\e90f";
+}
+.icon-18:before {
+  content: "\e90c";
+}
+.icon-network:before {
+  content: "\e900";
+}
+.icon-feed:before {
+  content: "\e900";
+}
+.icon-circle:before {
+  content: "\e901";
+}
+.icon-youtube:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
+.icon-facebook:before {
+  content: "\e904";
+}
+.icon-telegram:before {
+  content: "\e905";
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-okru:before {
+  content: "\e907";
+}
+.icon-vk:before {
+  content: "\e908";
+}
+.icon-close:before {
+  content: "\e909";
+}
+.icon-top:before {
+  content: "\e90a";
+}
+.icon-plus:before {
+  content: "\e90b";
+}
+.icon-moon:before {
+  content: "\e92f";
+}
+.icon-sun:before {
+  content: "\e930";
+}
+.icon-gallery:before {
+  content: "\e931";
+}
+.icon-microphone-side:before {
+  content: "\e932";
+}
+.icon-microphone-center:before {
+  content: "\e933";
+}
+.icon-play-circle:before {
+  content: "\e934";
+}
+.icon-play:before {
+  content: "\e935";
+}
+.icon-videocamera:before {
+  content: "\e936";
+}
+.icon-users:before {
+  content: "\e937";
+}
+.icon-calendar:before {
+  content: "\e938";
+}
+.icon-football:before {
+  content: "\e939";
+}
+.icon-eye:before {
+  content: "\e93a";
+}
+.icon-magnifer:before {
+  content: "\e93b";
+}
+.icon-bell:before {
+  content: "\e93c";
+}
+.icon-document:before {
+  content: "\e93d";
+}
+.icon-banknote:before {
+  content: "\e93e";
+}
+.icon-dollar:before {
+  content: "\e93f";
+}
+.icon-chat:before {
+  content: "\e940";
+}
+.icon-pen:before {
+  content: "\e941";
+}
+.icon-unread:before {
+  content: "\e943";
+}
+.icon-bolt-stroke:before {
+  content: "\e944";
+}
+.icon-bolt:before {
+  content: "\e945";
+}
+.icon-hamburger:before {
+  content: "\e946";
+}
+.icon-home:before {
+  content: "\e947";
+}
+.icon-filters:before {
+  content: "\e948";
+}
+.icon-login:before {
+  content: "\e949";
+}
+.icon-arrow-left:before {
+  content: "\e94a";
+}
+.icon-arrow-right:before {
+  content: "\e94b";
+}
+.icon-double:before {
+  content: "\e94c";
+}
